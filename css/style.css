@@ -84,38 +84,38 @@ h1, h2, h3, h4, h5, h6, figure {
   max-width: 1140px;
   position: relative;
   margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
+  padding-left: 10px;
+  padding-right: 0px;
+font-weight: 100px;}
 
 .ubea-nav {
-  position: fixed;
+  position: absolute;
   top: 0;
   margin: 0;
   padding: 0;
   width: 100%;
-  padding: 20px 0;
-  z-index: 1001;
-  background:transparent;
+  padding: 9px 0;
+  z-index: 988;
+  
 
-}
+background-color: green;}
 @media screen and (max-width: 768px) {
   .ubea-nav {
     padding: 20px 0;
   }
 }
 .ubea-nav #ubea-logo {
-  font-size: 20px;
+  font-size: 12px;
   margin: 0;
   padding: 0;
-  text-transform: uppercase;
-  font-weight: bold;
+  margin-left: -145px;text-transform: uppercase;
+  font-weight: bolder;
 }
 .ubea-nav #ubea-logo em {
   color: #FF5126;
 }
 .ubea-nav a {
-  padding: 0px 10px;
+  padding: 8px -20px;
   color: rgb(255, 255, 255);
 }
 @media screen and (max-width: 768px) {
@@ -134,10 +134,10 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline;
 }
 .ubea-nav ul li a {
-  font-size: 16px;
-  padding: 30px 10px;
+  font-size: 25px;
+  padding: 34px 15px;
   -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
+  margin-bottom: 34px;-o-transition: 0.5s;
   transition: 0.5s;
 }
 .ubea-nav ul li a:hover, .ubea-nav ul li a:focus, .ubea-nav ul li a:active {
